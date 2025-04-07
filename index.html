@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheInnovate: Empowering Women Entrepreneurs</title>
+    <style>
+        body {
+            background-color: pink;
+            background-image: url('images/other sections background.gif');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        header, nav, footer {
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav select {
+            padding: 5px;
+            font-size: 16px;
+        }
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+        }
+        .team {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .team-member {
+            margin: 10px;
+            text-align: center;
+        }
+        .team-member img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SheInnovate</h1>
+        <p>Empowering Women Entrepreneurs</p>
+    </header>
+
+    <nav>
+        <select onchange="location = this.value;">
+            <option value="">Select a section</option>
+            <option value="network.html">Network</option>
+            <option value="marketplace.html">Marketplace</option>
+            <option value="resources.html">Resources</option>
+            <option value="idea.html">Idea Submission</option>
+            <option value="crowdfunding.html">Crowdfunding</option>
+        </select>
+    </nav>
+
+    <section>
+        <h2>About the Sections</h2>
+        <p>Discover our networking platform, a marketplace for products, resources for entrepreneurs, and a space for submitting innovative business ideas. Join our crowdfunding efforts to gain community support!</p>
+    </section>
+
+    <section>
+        <h2>Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="images/Niza Mbao.jpg" alt="Niza Mbao">
+                <p>Niza Mbao<br>CEO, CTO and Co-founder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Lulwa Batarni.jpg" alt="Lulwa Batarni">
+                <p>Lulwa Batarni<br>COO and Co-founder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Dr C.jpg" alt="Dr C">
+                <p>Dr C<br>Co-founder and Head of Marketing</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Claire Chella.jpg" alt="Claire Chella">
+                <p>Claire Chella<br>Senior Developer and Co-founder</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SheInnovate. All rights reserved.</p>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
